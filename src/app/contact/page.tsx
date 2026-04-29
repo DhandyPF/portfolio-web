@@ -17,6 +17,7 @@ export default function Contact() {
           key={index}
           href={link.href}
           target="_blank"
+          rel="noopener noreferrer"
           className="text-white text-3xl font-bold hover:opacity-50 transition-opacity"
         >
           {link.label}

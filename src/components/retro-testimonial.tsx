@@ -126,9 +126,8 @@ const Carousel = ({items, initialScroll = 0}: iCarouselProps) => {
 									y: 0,
 									transition: {
 										duration: 0.5,
-										delay: 0.2 * index,
+										delay: 0.2,
 										ease: "easeOut",
-										once: true,
 									},
 								}}
 								key={`card-${index}`}
