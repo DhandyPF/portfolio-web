@@ -42,8 +42,8 @@ function Footer() {
       <div className="container mx-auto px-6 h-14 flex items-center justify-between">
         <span className="text-white/60 text-sm">© 2025 Dhandy Putra Fahruddin. All rights reserved.</span>
         <div className="flex gap-4">
-          <a href="https://instagram.com/dhandyputra.f" target="_blank" className="text-white/60 hover:text-white transition-colors text-sm">Instagram</a>
-          <a href="https://github.com/DhandyPF" target="_blank" className="text-white/60 hover:text-white transition-colors text-sm">GitHub</a>
+          <a href="https://instagram.com/dhandyputra.f" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white transition-colors text-sm">Instagram</a>
+          <a href="https://github.com/DhandyPF" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white transition-colors text-sm">GitHub</a>
         </div>
       </div>
     </footer>
@@ -59,8 +59,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <HeroGeometric
             badge=""
             title1="Dhandy Putra Fahruddin"
-            title2="Develpoer"
-            description="Ingin Menjadi Programmer Handal Namun Enggan Ngoding" />
+            title2="Developer" />
           </div>
           <Navbar />
           <main className="flex-1 pt-16 pb-14">{children}</main>
