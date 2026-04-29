@@ -12,10 +12,10 @@ export const metadata: Metadata = {
 
 function Navbar() {
   const menuItems = [
-    { label: "Home", href: "/" },
-    { label: "About", href: "/about" },
-    { label: "Projects", href: "/projects" },
-    { label: "Contact", href: "/contact" },
+    { label: "Home", href: "page/page.tsx" },
+    { label: "About", href: "about/page.tsx" },
+    { label: "Projects", href: "projects/page.tsx" },
+    { label: "Contact", href: "contact/page.tsx" },
   ];
 
   return (
