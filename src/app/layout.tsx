@@ -56,7 +56,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className={geist.className}>
         <div className="relative min-h-screen flex flex-col">
           <div className="fixed inset-0 -z-10">
-            <HeroGeometric badge="" title1="" title2="" description="" />
+            <HeroGeometric
+            badge=""
+            title1="Dhandy Putra Fahruddin"
+            title2="Develpoer"
+            description="Ingin Menjadi Programmer Handal Namun Enggan Ngoding" />
           </div>
           <Navbar />
           <main className="flex-1 pt-16 pb-14">{children}</main>
